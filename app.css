@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif !important;
+
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Anton', sans-serif !important;
+
+}
+
+.card{
+    border: none !important;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+
+.btn {
+    background-color: black !important;
+    outline: none !important;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 10px 20px;
+}
+
+.color{
+    height: 30px;
+    background: green;
+    width: 30px;
+    color: green;
+    border-radius: 50%;
+    border: none;
+   margin-left: 10px;
+   margin-top: 5px;
+   position: absolute;
+}
+
+.middle-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(60, 60, 60);
+    padding: 20px;
+    color: rgb(179, 177, 177);
+}
+
+.container-padding{
+   margin-top: 40px !important;
+   margin-bottom: 40px;
+}
+
+.fa-facebook, .fa-twitter,
+.fa-instagram, .fa-envelope{
+    transform: scale(1.5);
+}
+
+
+
+.footer .row{
+    margin-top: 60px !important; 
+   
+}
+
+
+
+.list-group .list-group-item{
+    border: none !important;
+}
+
+.hstack{
+    margin-top: 20px !important;
+    margin-bottom: 20px;
+}
+
+.side-msg{
+    display: flex;
+    align-items: center;
+    line-height: 1.5 !important;
+    font-family: 'Anton', sans-serif !important;
+}
+
+.brand{
+    color: rgba(255, 0, 0, 0.715);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.price{
+    padding: 5px;
+}
